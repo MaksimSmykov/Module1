@@ -5,6 +5,7 @@ print('Not existing value:',my_dict.get('Mahsa'))
 print('Not existing value:',my_dict.get('Mahsa','Такого ключа нет'))
 my_dict.update({'Alex':1996,'Katya':2005})
 my_dict['Masha'] = 2001
+my_dict['Dima'] = 1998
 deleted_value = my_dict.pop('Egor')
 print('Deleted value:',deleted_value)
 print('Modified dictionary:',my_dict)
